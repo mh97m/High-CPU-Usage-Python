@@ -2,6 +2,7 @@
 
 This Code create infinite number of txt file in directory that executed.
 Each txt file contain dummy data with 1 KB size.
+It can make 40000 file in 5 seconds.
 
 ## Performance
 
