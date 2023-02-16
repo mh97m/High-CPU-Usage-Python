@@ -1,8 +1,9 @@
-Warm up CPU and RAM -- using python
-=========================================================================
+# Warm up CPU and RAM -- using python
 
 This Code create infinite number of txt file in directory that executed.
 Each txt file contain dummy data with 1 KB size.
+
+## Performance
 
 This code wrote with --asyncio-- and --multi processing-- together for fastest run that ever can make...
 
@@ -22,6 +23,17 @@ Pythonic: The multiprocessing library is more Pythonic than using the threading 
 
 That being said, there are still some use cases where threading can be more appropriate than multiprocessing, such as I/O-bound tasks that do not require much CPU time. In general, the choice between threading and multiprocessing depends on the specific requirements of the application and the characteristics of the workload.
 
+## Usage
 
-Note. Be carefull this code use hole cpu and ram.
+Only execute python file.
+
+### Syntax :
+
+```bashe
+python3 import_asyncio_multiprocessing.py
+```
+
+#### Note.
+
+Be carefull this code use hole cpu and ram.
 ---------------------------------------------------
